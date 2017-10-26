@@ -6,14 +6,14 @@
 //  Copyright © 2017 UAG. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HomeController.h"
 @import Firebase;
 
-@interface ViewController ()
+@interface HomeController ()
 @property(strong,nonatomic) FIRAuthStateDidChangeListenerHandle handle;
 @end
 
-@implementation ViewController
+@implementation HomeController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

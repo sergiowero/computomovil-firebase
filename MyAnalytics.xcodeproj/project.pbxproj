@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		74487BC5F7D4C5EC2DAE4AFD /* libPods-MyAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 366886FCE541D3B016C69F54 /* libPods-MyAnalytics.a */; };
 		BEEC3DCB1FA1550100BD0EF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEC3DCA1FA1550100BD0EF2 /* AppDelegate.m */; };
-		BEEC3DCE1FA1550100BD0EF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEC3DCD1FA1550100BD0EF2 /* ViewController.m */; };
+		BEEC3DCE1FA1550100BD0EF2 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEC3DCD1FA1550100BD0EF2 /* HomeController.m */; };
 		BEEC3DD11FA1550100BD0EF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEC3DCF1FA1550100BD0EF2 /* Main.storyboard */; };
 		BEEC3DD31FA1550100BD0EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEEC3DD21FA1550100BD0EF2 /* Assets.xcassets */; };
 		BEEC3DD61FA1550100BD0EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEC3DD41FA1550100BD0EF2 /* LaunchScreen.storyboard */; };
@@ -24,8 +24,8 @@
 		BEEC3DC61FA1550100BD0EF2 /* MyAnalytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAnalytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEC3DC91FA1550100BD0EF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEEC3DCA1FA1550100BD0EF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BEEC3DCC1FA1550100BD0EF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BEEC3DCD1FA1550100BD0EF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEEC3DCC1FA1550100BD0EF2 /* HomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		BEEC3DCD1FA1550100BD0EF2 /* HomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
 		BEEC3DD01FA1550100BD0EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEEC3DD21FA1550100BD0EF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEEC3DD51FA1550100BD0EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -91,8 +91,8 @@
 		BEEC3DDF1FA1552D00BD0EF2 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BEEC3DCC1FA1550100BD0EF2 /* ViewController.h */,
-				BEEC3DCD1FA1550100BD0EF2 /* ViewController.m */,
+				BEEC3DCC1FA1550100BD0EF2 /* HomeController.h */,
+				BEEC3DCD1FA1550100BD0EF2 /* HomeController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -254,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEEC3DCE1FA1550100BD0EF2 /* ViewController.m in Sources */,
+				BEEC3DCE1FA1550100BD0EF2 /* HomeController.m in Sources */,
 				BEEC3DD91FA1550100BD0EF2 /* main.m in Sources */,
 				BEEC3DCB1FA1550100BD0EF2 /* AppDelegate.m in Sources */,
 			);
