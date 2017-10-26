@@ -9,4 +9,5 @@ platform :ios, '11.0'
   # Pods for MyAnalytics
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
 end

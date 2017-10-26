@@ -58,9 +58,9 @@
 		BEEC3DBD1FA1550100BD0EF2 = {
 			isa = PBXGroup;
 			children = (
+				BEEC3DE21FA157CA00BD0EF2 /* Podfile */,
 				BEEC3DC81FA1550100BD0EF2 /* MyAnalytics */,
 				BEEC3DC71FA1550100BD0EF2 /* Products */,
-				BEEC3DE21FA157CA00BD0EF2 /* Podfile */,
 				F98533320DA55C613D012926 /* Pods */,
 				437D403B8B1F8C85C7000BF5 /* Frameworks */,
 			);
@@ -77,11 +77,10 @@
 		BEEC3DC81FA1550100BD0EF2 /* MyAnalytics */ = {
 			isa = PBXGroup;
 			children = (
+				BEEC3DE41FA169DB00BD0EF2 /* Views */,
 				BEEC3DE01FA1555D00BD0EF2 /* Main */,
 				BEEC3DDF1FA1552D00BD0EF2 /* Controllers */,
-				BEEC3DCF1FA1550100BD0EF2 /* Main.storyboard */,
 				BEEC3DD21FA1550100BD0EF2 /* Assets.xcassets */,
-				BEEC3DD41FA1550100BD0EF2 /* LaunchScreen.storyboard */,
 				BEEC3DD71FA1550100BD0EF2 /* Info.plist */,
 				BEEC3DD81FA1550100BD0EF2 /* main.m */,
 				BEEC3DE11FA1570000BD0EF2 /* GoogleService-Info.plist */,
@@ -105,6 +104,15 @@
 				BEEC3DCA1FA1550100BD0EF2 /* AppDelegate.m */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		BEEC3DE41FA169DB00BD0EF2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEEC3DCF1FA1550100BD0EF2 /* Main.storyboard */,
+				BEEC3DD41FA1550100BD0EF2 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		F98533320DA55C613D012926 /* Pods */ = {
@@ -226,9 +234,13 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyAnalytics/Pods-MyAnalytics-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
