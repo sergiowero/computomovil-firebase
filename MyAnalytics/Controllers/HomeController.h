@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@import Firebase;
+@import GoogleSignIn;
 
-@interface HomeController : UIViewController
+@interface HomeController : UIViewController<GIDSignInUIDelegate>
 
 
 @end

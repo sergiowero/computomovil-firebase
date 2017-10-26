@@ -8,6 +8,7 @@
 
 #import "HomeController.h"
 @import Firebase;
+@import GoogleSignIn;
 
 @interface HomeController ()
 @property(strong,nonatomic) FIRAuthStateDidChangeListenerHandle handle;
@@ -18,6 +19,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [GIDSignIn sharedInstance].uiDelegate = self;
+    [[GIDSignIn sharedInstance] signIn];	
 }
 
 - (void)viewWillAppear:(BOOL)animated {
