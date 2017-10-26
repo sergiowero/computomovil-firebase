@@ -14,6 +14,7 @@
 		BEEC3DD31FA1550100BD0EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEEC3DD21FA1550100BD0EF2 /* Assets.xcassets */; };
 		BEEC3DD61FA1550100BD0EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEC3DD41FA1550100BD0EF2 /* LaunchScreen.storyboard */; };
 		BEEC3DD91FA1550100BD0EF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEC3DD81FA1550100BD0EF2 /* main.m */; };
+		BEEC3DE31FA165FC00BD0EF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEEC3DE11FA1570000BD0EF2 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +32,7 @@
 		BEEC3DD71FA1550100BD0EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEEC3DD81FA1550100BD0EF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BEEC3DE11FA1570000BD0EF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		BEEC3DE21FA157CA00BD0EF2 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		BEEC3DE21FA157CA00BD0EF2 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEEC3DD61FA1550100BD0EF2 /* LaunchScreen.storyboard in Resources */,
+				BEEC3DE31FA165FC00BD0EF2 /* GoogleService-Info.plist in Resources */,
 				BEEC3DD31FA1550100BD0EF2 /* Assets.xcassets in Resources */,
 				BEEC3DD11FA1550100BD0EF2 /* Main.storyboard in Resources */,
 			);
